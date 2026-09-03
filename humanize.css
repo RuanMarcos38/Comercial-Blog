@@ -1,0 +1,18 @@
+/* Final humanized UI pass — restrained corporate editorial finish */
+:root{--canvas:#f5f4f0;--surface:#fff;--surface-soft:#f7f6f2;--ink:#24292b;--muted:#687074;--navy:#20343b;--navy-2:#293e45;--navy-3:#33494f;--gold:#9f7a33;--gold-soft:#c5a55e;--line:#d8d5ce;--line-dark:#53676d;--radius-lg:12px;--radius-md:8px;--shadow:none;--shadow-soft:none}
+body{background:var(--canvas);color:var(--ink)}
+.site-header{border-radius:10px;box-shadow:none;border-color:rgba(255,255,255,.08)}
+.top-nav{background:transparent;border:0;border-radius:0;padding:0;gap:2px}
+.top-nav>a{border-radius:4px;padding:9px 12px}.nav-cta{border-radius:4px!important;margin-left:8px!important}
+.hero{border-radius:12px;box-shadow:none;padding-top:66px}.hero-visual{border-radius:8px;background:#293e45}.visual-note{border-radius:5px;background:#243a42}.button-primary,.button-secondary{border-radius:5px}
+.stats-grid{border-radius:8px;box-shadow:none}.stat{background:#fff}
+.section{border-radius:10px;box-shadow:none}.section-tag,.library-tag{border-radius:3px;padding:6px 9px;letter-spacing:.055em}.featured-panel{border-radius:10px}
+.cards{gap:12px}.card{border-radius:7px;box-shadow:none!important}.card:hover{box-shadow:none!important}.arrow{border-radius:4px;width:38px;height:38px}
+.indicator-panel{border-radius:8px}.tool{border-radius:4px;background:#263f47}.mini-panel{border-radius:5px}
+.library-row a{border-radius:4px}.process{border-radius:7px}.process-step{background:#fcfbf8}
+.cta-box{border-radius:10px;box-shadow:none}
+.article-hero{border-radius:10px;box-shadow:none}.article-meta span{border-radius:3px}.toc{border-radius:7px;box-shadow:none}.article{border-radius:8px;box-shadow:none}.article blockquote,.reading-sample blockquote{border-radius:0;background:#f5f2ea}.article .formula{border-radius:5px;background:#263d44}.article .flow-step{border-radius:4px;background:#f6f4ef}.share-button{border-radius:4px}
+.hero-visual img{filter:none!important;opacity:.96}
+.card,.tool,.process-step,.article,.toc,.stats-grid,.section,.hero,.cta-box{background-image:none!important}
+@media(max-width:900px){.top-nav{background:#263c44;border:1px solid rgba(255,255,255,.09);border-radius:7px;padding:10px}.top-nav>a{border-radius:3px}}
+@media(max-width:620px){.hero,.section,.article-hero,.article,.cta-box{border-radius:8px}.site-header{border-radius:8px}.stats-grid{border-radius:6px}}
