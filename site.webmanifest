@@ -1,0 +1,10 @@
+{
+  "name": "Estratégia & Resultado",
+  "short_name": "Estratégia",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#12141a",
+  "theme_color": "#12141a",
+  "lang": "pt-BR",
+  "icons": []
+}
